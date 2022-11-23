@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/stones.css">
+    <title>Starved Rock</title>
+</head>
+<body>
+    <header class="container">
+        <h1>Starved Rock</h1>
+    </header>
+    <nav>
+            <div class="w3-bar  w3-light-green w3-center">
+                <a href="../index.html" style="width:15%" class="w3-bar-item w3-button w3-mobile">Home</a>
+                <a href="../sites/baraboo.html" style="width:15%" class="w3-bar-item w3-button w3-mobile">Baraboo</a>
+                <a href="../sites/devilsLake.html" style="width:15%" class="w3-bar-item w3-button w3-mobile">Devils lake</a>
+                <a href="#" style="width:15%" class="w3-bar-item w3-button w3-mobile">Starved Rock</a>
+                <a href="../sites/dreamPlaces.html" style="width:15%" class="w3-bar-item w3-button w3-mobile">Dream places</a>
+              </div>
+    </nav>
+    <main class="container">
+        <p>
+            Starved rock was an amazing trip. It was one of the few trips where I went with my friends instead of my family, and we had a blast. We explored everywhere we could, and I mean everywhere. Near the end of our trip we even got a bit lost, not knowing how we should get back. So what we did was walk around a bit until we found a pathish looking area, and just kept going down it. Eventually it led us to a 70 degree slope, which for most people would be the point to turn back. Not us. We took turns one by one sliding down this little slope, and just kept going. We kept going until we found ourselves high up on the cliff face closer to the road leading back into starved rock. Now we knew where we were going and just started walking towards where we thought our cars were.  
+        </p>
+    </main>
+     <!-- Slideshow container -->
+    <!--Code From w3 Schools-->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <img src="../images/slipperyRocks.jpeg" style="width:100%">
+      <div class="text">Wet Rocks</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img src="../images/coollight.jpeg" style="width:100%">
+      <div class="text">Empty Water Fall</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img src="../images/Groove Opening.jpeg" style="width:100%">
+      <div class="text">Green Groove</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 4</div>
+      <img src="../images/Rocksonwall.jpeg" style="width:100%">
+      <div class="text">Rocks on the Wall</div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+
+
+</body>
+<script>
+    // Code from w3 schools
+    let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<footer>
+  <p>&copy; Devin Grischow</p>
+</footer>
+</body>
+</html>
