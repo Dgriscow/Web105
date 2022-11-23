@@ -1,0 +1,22 @@
+h1, h2, h3, h4{
+    color: crimson;
+}
+
+.container{
+    border: 2px solid orange;
+}
+
+.container-fluid{
+    border: 2px solid gold;
+    width: 90%;
+    margin: 10px auto;
+
+}
+
+[class*="col-"] {
+	border: 1px solid green
+}
+
+p{
+    color: lightblue;
+}
