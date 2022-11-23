@@ -1,0 +1,27 @@
+body{
+   background-color: lightsalmon;
+    color: cyan;
+}
+
+.container{
+  width: 70%;
+  margin: 10px auto;
+  border: 3px solid forestgreen;
+  padding: 10px;
+ text-align:cs center;
+}
+h1{
+  text-align: center;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 3cm;
+}
+h2{
+  text-align: left;
+  font-family: Tahoma;
+  font-size: 1cm
+}
+p{
+font-family: Georgia;
+color: mediumblue;
+}
