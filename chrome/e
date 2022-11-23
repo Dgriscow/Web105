@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+
+    <header>
+    <h1>LISTS</h1>
+    </header>
+    <main>
+    <p>You can pick what your lists are about. I'm doing different types of music</p>
+    <h2>Ordered Lists</h2>
+    <ol>
+        <li>Country</li>
+        <li>Pop</li>
+        <li>Motown
+            <ol>
+                <li>The Supremes</li>
+                <li>Otis Redding</li>
+            </ol>
+        </li>
+        <li>HipHop</li>
+        <li>Hair Bands</li>
+        <li>Classic Rock</li>
+    </ol>
+    <h2>Unordered Lists</h2>
+    <ul>
+        <li>Garth Brooks</li>
+        <li>Jason Aldeen</li>
+        <li>Queen
+            <ul>
+                <li>Under Pressure</li>
+                <li>We Will Rock You</li>
+            </ul>
+        </li>
+        <li>Megan Trainor</li>
+        <li>Macklemore</li>
+    </ul>
+    <h2>Definition / Description Lists</h2>
+    <dl>
+        <dt>Caffee Au Lait</dt>
+        <dd>Half Coffee Half Steamed Milk</dd>
+        <dt>Caffee Americano</dt>
+        <dd>Watered Down Espresso</dd>
+    </dl>
+</main>
+</div>
+
+<footer>
+    <p>&copy; 2022 Meri Engel</p>
+</footer>
+</body>
+</html>
