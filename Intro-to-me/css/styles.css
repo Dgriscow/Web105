@@ -1,0 +1,63 @@
+body{
+    background-image: url(../images/Devinthebirdmaster.png);
+}
+
+div{
+    overflow: auto;
+}
+.container{
+    width: 89%;
+    margin: 10px auto;
+    border: 2px solid blue;
+    padding: 5px;
+    background:rgba(255,255,255,.7);
+}
+
+.rightIMG{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+
+.aboutme{
+    border: 5px solid #4A31F5;
+    text-align: center;
+    height: auto;
+}
+
+.left{
+float: left;
+}
+
+.right{
+float: right;
+}
+
+
+
+
+
+p{
+    font-size: 1cm;
+    color: #1F029F;
+}
+
+.list h1{
+font-size: 1.5cm;    
+}
+
+dd{
+    overflow: auto;
+    color: black;
+    font-size: 1cm;
+}
+dt{
+    overflow: auto;
+    font-size: 1cm;
+    color: #1F029F;
+}
+
+h1{
+    color: #F53D25;
+}
