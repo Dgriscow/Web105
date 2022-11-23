@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(70, 144, 170);
+    font-family: arial, comicsans, sans-serif;
+    padding: 10px;
+    line-height: 1.5;
+    font-size: 25px;
+}
+
+div, header, footer, nav, main, aside{
+    overflow: auto;
+    border: 1px solid rgb(159, 154, 131);
+    margin: 10px;
+    padding: 10px;
+}
+.container{
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid rgb(128, 0, 255);
+}
+
+nav{
+    text-align: center;
+}
+
+h2{
+    text-align: left;
+    
+}
+
+.container p{
+    margin-left: 15px;
+}
+
+#p1{
+    font-weight: bolder;
+    color: orange;
+    padding: 10px;
+}
+#p2{
+    font-weight: bold;
+    color: goldenrod;
+    padding: 10px;
+}
+#p3{
+    font-weight: bolder;
+    color: brown;
+    padding: 25px;
+}
