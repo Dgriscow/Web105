@@ -1,0 +1,74 @@
+body{
+    background-color: lightgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(../images/shuddle.jpg);
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    width: 80%;
+    border: 2px solid orangered;
+    margin: 10px auto;
+    padding: 10px;
+    background: rgba(255,78,17, .8)
+}
+
+img{
+    width: 50%;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+#background{
+    background-image:url(../images/tigerbird.jpg);
+    background-position: center;
+    background-size:cover;
+    color: yellow;
+    font-size: 3em;
+    text-shadow: 2px 2px 2px #472506; 
+}
+
+#background h2{
+    background: rgba(0,0,0,.6);
+    padding: 10px;
+}
+
+
+#left{
+    overflow: auto;
+    padding: 10px;
+}
+
+#left img{
+    float: left;
+    margin: 10px;
+}
+
+#right{
+    overflow: auto;
+    padding: 10px;
+}
+
+
+#right img{
+    float: right;
+    margin: 20px;
+}
+
+#external{
+
+}
+
+#link{
+
+}
+
+#centered img{
+    width: 50%;
+    display: block;
+    margin: 25px auto;
+}
