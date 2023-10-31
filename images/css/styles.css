@@ -1,74 +1,44 @@
-body{
-    background-color: lightgray;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: url(../images/shuddle.jpg);
-    background-repeat: repeat-y;
-    background-position: center;
-    background-size: cover;
+/* ---------------------- layout ------------------------- */
+
+body {
+    font-family: arial, helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 1.2em;
+    background-color: ivory;
+    color: black;
 }
 
-.container{
-    width: 80%;
-    border: 2px solid orangered;
-    margin: 10px auto;
-    padding: 10px;
-    background: rgba(255,78,17, .8)
+.container {
+    width: 90%;
+    max-width: 1400px;
+    min-width: 500px;
+    margin: 20px auto;
+    overflow: auto;
 }
 
-img{
-    width: 50%;
+footer {
+    text-align: center;
+    padding: 20px;
 }
 
-h1, h2{
+header {
+    min-height: 80px;
     text-align: center;
 }
 
-#background{
-    background-image:url(../images/tigerbird.jpg);
-    background-position: center;
-    background-size:cover;
-    color: yellow;
-    font-size: 3em;
-    text-shadow: 2px 2px 2px #472506; 
-}
-
-#background h2{
-    background: rgba(0,0,0,.6);
-    padding: 10px;
-}
-
-
-#left{
-    overflow: auto;
-    padding: 10px;
-}
-
-#left img{
-    float: left;
-    margin: 10px;
-}
-
-#right{
-    overflow: auto;
-    padding: 10px;
-}
-
-
-#right img{
-    float: right;
+h2 {
+    color: navy;
+    text-align: center;
     margin: 20px;
+    font-size: 1.5em;
 }
 
-#external{
-
+h1 {
+    font-size: 2em;
+    text-align: center;
+    color: navy;
 }
 
-#link{
-
-}
-
-#centered img{
-    width: 50%;
-    display: block;
-    margin: 25px auto;
+img {
+    width: 500px;
 }
